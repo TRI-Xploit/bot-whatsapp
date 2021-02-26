@@ -5,7 +5,7 @@ const group = (prefix, botName, ownerName) => {
 ┷┯ *〈 BOT INFO 〉*
    ╽
    ┠≽ *Prefix* : 「  ${prefix}  」
-   ┠≽ *Creator* : ${TRI-Xploit™(BOT) }
+   ┠≽ *Creator* : ${ownerName}
    ┠≽ *Version* : 0.0.5
    ╿
 ┯┷ *〈 ABOUT 〉*
@@ -87,6 +87,5 @@ const group = (prefix, botName, ownerName) => {
    ┠≽ *${prefix}ownergroup*
    ┃ *Desc* : Shows who the Group Owner is
    ╿ *${ownerName}*,
-   ╰╼≽ *Developer © ${TRI-Xploit™(BOT) }`
+   ╰╼≽ *Developer © ${botName}`
 }
-exports.group = group
